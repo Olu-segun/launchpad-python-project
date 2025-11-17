@@ -16,7 +16,7 @@ def log_status(email, status, message):
         writer.writerow([email, status, message])
 
     
-
+"""Fuction to send quote to each user fetched from the databse"""
 def send_quote_to_users():
 
     quote = extract_quote()
